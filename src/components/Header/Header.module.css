@@ -1,0 +1,48 @@
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #66A0A3;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px 0;
+    padding: 10px 0;
+
+}
+
+.headerBox {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.headerLogo {
+    width: 50%;
+    flex: 1;
+}
+
+.headerSearchbar {
+    border-radius: 4px;
+    padding: 10px;
+    width: 280px;
+    border: none;
+}
+
+.headerNav {
+    display: flex;
+    width: 320px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;   
+}
+
+.headerLinkAnchor {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #94D2BD;
+}
+
+.navbarAnchor {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
