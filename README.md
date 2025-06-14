@@ -1,3 +1,15 @@
+# Tecnologias usadas:
+### `Front-end:`
+- React JS
+- JSX
+- HTML5
+- CSS3
+- FlatIcons
+- Bootstrap 5
+- Animated CSS
+- JQuery
+- Figma (UX/UI Designs)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

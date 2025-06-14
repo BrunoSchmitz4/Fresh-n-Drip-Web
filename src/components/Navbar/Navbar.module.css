@@ -11,7 +11,13 @@
 
 .navbarAnchor {
     text-align: center;
-    text-decoration: none;
+    text-decoration: 8px none #0A9396;  
     color: white;
     font-weight: bold;
+}
+
+.navbarAnchor:hover {
+    transition: 0.4s;
+    color: #0A9396;
+    text-decoration: 8px underline #0A9396;  
 }

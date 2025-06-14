@@ -5,16 +5,17 @@
     background-color: #66A0A3;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px 0;
     padding: 10px 0;
 
 }
 
 .headerBox {
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     gap: 50px;
 }
@@ -37,7 +38,7 @@
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;   
 }
 
@@ -45,4 +46,7 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+.headerLinkIcon {
+    width: 32px;
 }

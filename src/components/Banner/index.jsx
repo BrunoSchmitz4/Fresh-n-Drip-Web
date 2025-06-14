@@ -6,7 +6,9 @@ function Banner() {
         <>
             <div className={styles.bannerContainer}>
                 <img className={styles.bannerImg} src={bannerImg} alt="Imagem do banner" />
-                <span className={styles.bannerSpan}>Moda e liberdade andam juntos, orgulhe-se do seu estilo.</span>
+                <span className={styles.bannerSpan}>
+                    <span className={styles.bBlueStyle}>Moda</span> e <span className={styles.bBlueStyle}>liberdade</span> andam juntos, orgulhe-se do <span className={styles.bRedStyle}>seu estilo</span>.
+                    </span>
             </div>
         </>
     )
