@@ -3,8 +3,10 @@ import styles from "./PageTitle.module.css"
 function PageTitle( {PageTitle = "Título da Página"} ) {
     return (
         <>
-            <div>
-                <h1></h1>
+            <div className={styles.pageTitleDiv}>
+                <h1 cl>
+                    {PageTitle}
+                </h1>
             </div>
         </>
     )
