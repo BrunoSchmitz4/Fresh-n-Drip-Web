@@ -15,8 +15,8 @@ function Header() {
                     <input className={styles.headerSearchbar} type="text" placeholder='O que vai vestir hoje?'/>
                     <nav className={styles.headerNav}>
                         <a className={styles.headerLinkAnchor} href="/"><img className={styles.headerLinkIcon} src={User} alt="User Profile" /></a>
-                        <a className={styles.headerLinkAnchor} href="/"><img className={styles.headerLinkIcon} src={Shop} alt="Shop" /></a>
-                        <a className={styles.headerLinkAnchor} href="/"><img className={styles.headerLinkIcon} src={Order} alt="Orders" /></a>
+                        <a className={styles.headerLinkAnchor} href="/carrinho"><img className={styles.headerLinkIcon} src={Shop} alt="Shop" /></a>
+                        <a className={styles.headerLinkAnchor} href="/pedidos"><img className={styles.headerLinkIcon} src={Order} alt="Orders" /></a>
                     </nav>
                 </div>
             </header>
