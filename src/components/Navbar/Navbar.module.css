@@ -17,7 +17,7 @@
 }
 
 .navbarAnchor:hover {
-    transition: 0.4s;
-    color: #0A9396;
-    text-decoration: 8px underline #0A9396;  
+    transition: 0.5s;
+    color: #1c5c5c;
+    /* text-decoration: 8px underline #0A9396;   */
 }

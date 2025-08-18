@@ -6,6 +6,9 @@
     text-align: center;
     font-family: "Sedgwick Ave Display";
     position: relative; /* Mantido para que o span se posicione em relação a este contêiner */
+
+    /* Animation */
+    animation: fadeInDown 1s ease-out
 }
 
 .bannerImg {
@@ -37,4 +40,16 @@
 
 .bBlueStyle {
   color: #37B3FF;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    /* transform: translateY(-20px); */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -3,11 +3,12 @@ import logoIcon from './Logo.svg'
 import Order from './OrderIcon.svg'
 import Shop from './ShopIcon.svg'
 import User from './UserIcon.svg'
+import 'animate.css';
 
 function Header() {
     return (
         <>
-            <header className={styles.headerContainer}>
+            <header id="headerContainer" className={styles.headerContainer}>
                 <div className={styles.headerBox}>
                     <img className={styles.headerLogo} src={logoIcon} alt="Logo Fresh'n Drip" />
                 </div>
