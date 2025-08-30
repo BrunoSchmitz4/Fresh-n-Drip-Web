@@ -1,10 +1,10 @@
 import styles from './CardSection.module.css'
 
-function CardSection() {
+function CardSection( {children} ) {
     return (
         <>
             <section className={styles.cardSectionContainer}>
-                
+                {children}
             </section>
         </>
     )

@@ -1,6 +1,12 @@
 .cardSectionContainer {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     width: 80%;
-    
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 0.45rem;
+    border-radius: 8px;
+    background-color: rgb(252, 246, 246);;
 }

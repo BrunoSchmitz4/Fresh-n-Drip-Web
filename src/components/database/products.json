@@ -1,0 +1,604 @@
+{
+    "data_products": [
+        {
+            "product_id": 1,
+            "product_name": "Jeans",
+            "product_type": "calça",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/1.jpg",
+            "product_price_list": {
+                "BRL": 159.90,
+                "USD": 30.46
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 2,
+            "product_name": "Camiseta Básica",
+            "product_type": "camiseta",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/2.jpg",
+            "product_price_list": {
+                "BRL": 79.90,
+                "USD": 15.22
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 3,
+            "product_name": "Jaqueta de Couro",
+            "product_type": "jaqueta",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/3.jpg",
+            "product_price_list": {
+                "BRL": 349.90,
+                "USD": 66.65
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 4,
+            "product_name": "Moletom Oversized",
+            "product_type": "moletom",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/4.jpg",
+            "product_price_list": {
+                "BRL": 199.90,
+                "USD": 38.07
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 5,
+            "product_name": "Bermuda Cargo",
+            "product_type": "bermuda",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/5.jpg",
+            "product_price_list": {
+                "BRL": 119.90,
+                "USD": 22.84
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 6,
+            "product_name": "Camisa Polo",
+            "product_type": "camisa",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/6.jpg",
+            "product_price_list": {
+                "BRL": 139.90,
+                "USD": 26.65
+            },
+            "product_brand": "ClassicFit"
+        },
+        {
+            "product_id": 7,
+            "product_name": "Vestido Midi",
+            "product_type": "vestido",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/7.jpg",
+            "product_price_list": {
+                "BRL": 229.90,
+                "USD": 43.78
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 8,
+            "product_name": "Saia Jeans",
+            "product_type": "saia",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/8.jpg",
+            "product_price_list": {
+                "BRL": 149.90,
+                "USD": 28.55
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 9,
+            "product_name": "Short Esportivo",
+            "product_type": "short",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/9.jpg",
+            "product_price_list": {
+                "BRL": 99.90,
+                "USD": 19.03
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 10,
+            "product_name": "Blazer Slim",
+            "product_type": "blazer",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/10.jpg",
+            "product_price_list": {
+                "BRL": 399.90,
+                "USD": 76.17
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 11,
+            "product_name": "Calça Jogger",
+            "product_type": "calça",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/11.jpg",
+            "product_price_list": {
+                "BRL": 179.90,
+                "USD": 34.27
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 12,
+            "product_name": "Regata Estampada",
+            "product_type": "regata",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/12.jpg",
+            "product_price_list": {
+                "BRL": 89.90,
+                "USD": 17.12
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 13,
+            "product_name": "Cardigan Tricot",
+            "product_type": "cardigan",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/13.jpg",
+            "product_price_list": {
+                "BRL": 189.90,
+                "USD": 36.16
+            },
+            "product_brand": "ClassicFit"
+        },
+        {
+            "product_id": 14,
+            "product_name": "Macacão Jeans",
+            "product_type": "macacão",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/14.jpg",
+            "product_price_list": {
+                "BRL": 249.90,
+                "USD": 47.60
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 15,
+            "product_name": "Top Cropped",
+            "product_type": "top",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/15.jpg",
+            "product_price_list": {
+                "BRL": 69.90,
+                "USD": 13.31
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 16,
+            "product_name": "Sobretudo",
+            "product_type": "sobretudo",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/16.jpg",
+            "product_price_list": {
+                "BRL": 459.90,
+                "USD": 87.60
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 17,
+            "product_name": "Camisa Social",
+            "product_type": "camisa",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/17.jpg",
+            "product_price_list": {
+                "BRL": 209.90,
+                "USD": 39.98
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 18,
+            "product_name": "Calça Legging",
+            "product_type": "calça",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/18.jpg",
+            "product_price_list": {
+                "BRL": 129.90,
+                "USD": 24.74
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 19,
+            "product_name": "Jaqueta Jeans",
+            "product_type": "jaqueta",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/19.jpg",
+            "product_price_list": {
+                "BRL": 229.90,
+                "USD": 43.78
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 20,
+            "product_name": "Blusa Manga Longa",
+            "product_type": "blusa",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/20.jpg",
+            "product_price_list": {
+                "BRL": 109.90,
+                "USD": 20.93
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 21,
+            "product_name": "Chinelo Slide",
+            "product_type": "chinelo",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/21.jpg",
+            "product_price_list": {
+                "BRL": 59.90,
+                "USD": 11.41
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 22,
+            "product_name": "Tênis Casual",
+            "product_type": "tênis",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/22.jpg",
+            "product_price_list": {
+                "BRL": 299.90,
+                "USD": 57.12
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 23,
+            "product_name": "Bota Coturno",
+            "product_type": "bota",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/23.jpg",
+            "product_price_list": {
+                "BRL": 349.90,
+                "USD": 66.65
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 24,
+            "product_name": "Sandália Plataforma",
+            "product_type": "sandália",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/24.jpg",
+            "product_price_list": {
+                "BRL": 139.90,
+                "USD": 26.65
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 25,
+            "product_name": "Boné Aba Reta",
+            "product_type": "boné",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/25.jpg",
+            "product_price_list": {
+                "BRL": 89.90,
+                "USD": 17.12
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 26,
+            "product_name": "Touca de Lã",
+            "product_type": "touca",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/26.jpg",
+            "product_price_list": {
+                "BRL": 59.90,
+                "USD": 11.41
+            },
+            "product_brand": "ClassicFit"
+        },
+        {
+            "product_id": 27,
+            "product_name": "Cachecol Listrado",
+            "product_type": "cachecol",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/27.jpg",
+            "product_price_list": {
+                "BRL": 79.90,
+                "USD": 15.22
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 28,
+            "product_name": "Luvas de Couro",
+            "product_type": "luvas",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/28.jpg",
+            "product_price_list": {
+                "BRL": 99.90,
+                "USD": 19.03
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 29,
+            "product_name": "Meias Coloridas",
+            "product_type": "meias",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/29.jpg",
+            "product_price_list": {
+                "BRL": 39.90,
+                "USD": 7.60
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 30,
+            "product_name": "Cinto de Couro",
+            "product_type": "cinto",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/30.jpg",
+            "product_price_list": {
+                "BRL": 149.90,
+                "USD": 28.55
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 31,
+            "product_name": "Calça Skinny",
+            "product_type": "calça",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/31.jpg",
+            "product_price_list": {
+                "BRL": 169.90,
+                "USD": 32.36
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 32,
+            "product_name": "Camiseta Estonada",
+            "product_type": "camiseta",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/32.jpg",
+            "product_price_list": {
+                "BRL": 99.90,
+                "USD": 19.03
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 33,
+            "product_name": "Jaqueta Corta-Vento",
+            "product_type": "jaqueta",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/33.jpg",
+            "product_price_list": {
+                "BRL": 229.90,
+                "USD": 43.78
+            },
+            "product_brand": "ClassicFit"
+        },
+        {
+            "product_id": 34,
+            "product_name": "Moletom Canguru",
+            "product_type": "moletom",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/34.jpg",
+            "product_price_list": {
+                "BRL": 149.90,
+                "USD": 28.55
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 35,
+            "product_name": "Bermuda Jeans",
+            "product_type": "bermuda",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/35.jpg",
+            "product_price_list": {
+                "BRL": 119.90,
+                "USD": 22.84
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 36,
+            "product_name": "Camisa Xadrez",
+            "product_type": "camisa",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/36.jpg",
+            "product_price_list": {
+                "BRL": 139.90,
+                "USD": 26.65
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 37,
+            "product_name": "Vestido Floral",
+            "product_type": "vestido",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/37.jpg",
+            "product_price_list": {
+                "BRL": 189.90,
+                "USD": 36.16
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 38,
+            "product_name": "Saia Plissada",
+            "product_type": "saia",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/38.jpg",
+            "product_price_list": {
+                "BRL": 159.90,
+                "USD": 30.46
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 39,
+            "product_name": "Short Jeans",
+            "product_type": "short",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/39.jpg",
+            "product_price_list": {
+                "BRL": 109.90,
+                "USD": 20.93
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 40,
+            "product_name": "Blazer Casual",
+            "product_type": "blazer",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/40.jpg",
+            "product_price_list": {
+                "BRL": 259.90,
+                "USD": 49.50
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 41,
+            "product_name": "Calça Social",
+            "product_type": "calça",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/41.jpg",
+            "product_price_list": {
+                "BRL": 229.90,
+                "USD": 43.78
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 42,
+            "product_name": "Camiseta Oversized",
+            "product_type": "camiseta",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/42.jpg",
+            "product_price_list": {
+                "BRL": 89.90,
+                "USD": 17.12
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 43,
+            "product_name": "Jaqueta Puffer",
+            "product_type": "jaqueta",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/43.jpg",
+            "product_price_list": {
+                "BRL": 399.90,
+                "USD": 76.17
+            },
+            "product_brand": "EliteStyle"
+        },
+        {
+            "product_id": 44,
+            "product_name": "Moletom Estampado",
+            "product_type": "moletom",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/44.jpg",
+            "product_price_list": {
+                "BRL": 179.90,
+                "USD": 34.27
+            },
+            "product_brand": "Vibe"
+        },
+        {
+            "product_id": 45,
+            "product_name": "Bermuda Esportiva",
+            "product_type": "bermuda",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/45.jpg",
+            "product_price_list": {
+                "BRL": 99.90,
+                "USD": 19.03
+            },
+            "product_brand": "StreetCo"
+        },
+        {
+            "product_id": 46,
+            "product_name": "Camisa de Linho",
+            "product_type": "camisa",
+            "product_desc": "Peça confortável e estilosa.",
+            "product_img": "https://example.com/images/46.jpg",
+            "product_price_list": {
+                "BRL": 199.90,
+                "USD": 38.07
+            },
+            "product_brand": "ClassicFit"
+        },
+        {
+            "product_id": 47,
+            "product_name": "Vestido Longo",
+            "product_type": "vestido",
+            "product_desc": "Ideal para o dia a dia.",
+            "product_img": "https://example.com/images/47.jpg",
+            "product_price_list": {
+                "BRL": 249.90,
+                "USD": 47.60
+            },
+            "product_brand": "Minimal"
+        },
+        {
+            "product_id": 48,
+            "product_name": "Saia Midi",
+            "product_type": "saia",
+            "product_desc": "Material de alta qualidade.",
+            "product_img": "https://example.com/images/48.jpg",
+            "product_price_list": {
+                "BRL": 139.90,
+                "USD": 26.65
+            },
+            "product_brand": "STLXSMAN"
+        },
+        {
+            "product_id": 49,
+            "product_name": "Short Cintura Alta",
+            "product_type": "short",
+            "product_desc": "Design moderno e versátil.",
+            "product_img": "https://example.com/images/49.jpg",
+            "product_price_list": {
+                "BRL": 119.90,
+                "USD": 22.84
+            },
+            "product_brand": "UrbanWear"
+        },
+        {
+            "product_id": 50,
+            "product_name": "Blusa Cropped",
+            "product_type": "blusa",
+            "product_desc": "Estilo urbano e casual.",
+            "product_img": "https://example.com/images/50.jpg",
+            "product_price_list": {
+                "BRL": 79.90,
+                "USD": 15.22
+            },
+            "product_brand": "EliteStyle"
+        }
+    ]
+}
