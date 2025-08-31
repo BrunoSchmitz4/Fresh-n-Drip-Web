@@ -1,7 +1,7 @@
 import styles from "./CardSection.module.css";
 
-function CardSection({ type }, { children }) {
-  switch ({ type }) {
+function CardSection( { children }, type) {
+  switch ( type ) {
         // Caso seja um grande (mostra um único) e precisa de um ID para exibir o card único
     case "big":
         return (
