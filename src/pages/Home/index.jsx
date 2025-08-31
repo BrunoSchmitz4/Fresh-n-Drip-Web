@@ -16,7 +16,7 @@ function Home() {
         <Navbar />
         <Banner />
         <CardSection>
-            {/* Lógica de renderização condicional corrigida */}
+            {/* Validação (se o mock de testes existir e o data_products existir (e não estiver), vai exibir o que achar*/}
         {productsData && productsData.data_products && productsData.data_products.length > 0 ? (
           productsData.data_products.map(product => (
             <Card key={product.product_id} product={product}/>

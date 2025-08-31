@@ -10,7 +10,9 @@ function Header() {
         <>
             <header id="headerContainer" className={styles.headerContainer}>
                 <div className={styles.headerBox}>
-                    <img className={styles.headerLogo} src={logoIcon} alt="Logo Fresh'n Drip" />
+                    <a className={styles.headerLogo} href="/">
+                        <img src={logoIcon} alt="Logo Fresh'n Drip" />
+                    </a>
                 </div>
                 <div className={styles.headerBox}>
                     <input className={styles.headerSearchbar} type="text" placeholder='O que vai vestir hoje?'/>

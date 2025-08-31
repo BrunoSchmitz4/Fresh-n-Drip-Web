@@ -1,5 +1,6 @@
 .navbarContainer {
     width: 100%;
+    min-height: 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

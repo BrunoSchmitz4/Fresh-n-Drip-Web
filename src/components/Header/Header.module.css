@@ -8,7 +8,7 @@
     justify-content: space-around;
     gap: 10px 0;
     padding: 10px 0;
-
+    
     /* Animation */
     /* animation: fadeInDown 0.5s ease-in-out; */
 
@@ -24,6 +24,7 @@
 }
 
 .headerLogo {
+    margin-top: 0.45rem;
     width: 50%;
     flex: 1;
 }
