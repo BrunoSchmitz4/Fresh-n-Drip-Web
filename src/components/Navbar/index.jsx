@@ -4,11 +4,7 @@ const UserData = "";
 
 function Navbar( {type} ) {
 
-    const typeOfNavbar = type;
-
-    const userHelloMessage = UserData ? `Como vai, ${UserData}?` : `É preciso logar para ver seu carrinho`
-    
-    if (typeOfNavbar == "nav") 
+    if (type === "nav") 
         return (
             <nav className={styles.navbarContainerNav}>
                 <a href="/" className={styles.navbarAnchor}>Home</a>
@@ -21,11 +17,19 @@ function Navbar( {type} ) {
                 <a href="/" className={styles.navbarAnchor}>Acessórios</a>
             </nav>
         )
-    else 
+    else if (type === "user") 
         return (
             <nav className={styles.navbarContainer}>
                 <p className={styles.navbarUsername}>
-                    { userHelloMessage }
+                    { UserData ? `Como vai, ${UserData}?` : `É preciso logar para ver seu carrinho` }
+                </p>
+            </nav>
+        )
+    else if (type === "shop")
+        return (
+            <nav className={styles.navbarContainer}>
+                <p className={styles.navbarUsername}>
+                    Carrinho de Compras
                 </p>
             </nav>
         )

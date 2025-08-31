@@ -4,8 +4,6 @@ import Navbar from "components/Navbar";
 import Banner from "components/Banner";
 import CardSection from "components/CardSection";
 import Card from "components/Card";
-
-// Test
 import productsData from "../../components/database/products.json"
 
 function Home() {
@@ -13,7 +11,7 @@ function Home() {
     return (
         <>
         <Header />
-        <Navbar />
+        <Navbar type="nav"/>
         <Banner />
         <CardSection>
             {/* Validação (se o mock de testes existir e o data_products existir (e não estiver), vai exibir o que achar*/}

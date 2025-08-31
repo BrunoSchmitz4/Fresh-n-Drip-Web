@@ -1,4 +1,4 @@
-.navbarContainerNav {
+.navbarContainerNav, .navbarUsername {
     width: 100%;
     min-height: 80px;
     display: flex;
@@ -10,7 +10,7 @@
     background-color: #94D2BD;
 }
 
-.navbarAnchor {
+.navbarAnchor, .navbarUsername {
     text-align: center;
     text-decoration: 8px none #0A9396;  
     color: white;
